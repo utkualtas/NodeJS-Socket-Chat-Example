@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.slim.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Chat App Example</title>
+</head>
+<body>
+
+<div class="content">
+    <div class="sidebar">
+        <div class="chatHeader">
+            <h2 align="center" style="padding: 16px; ">Settings</h2>
+        </div>
+        <div class="divider">
+            <div class="nameContain">
+                <p>Name:</p>
+                <input type="text" placeholder="name or nickname.." name="name" id="name">
+            </div>
+        </div>
+    </div>
+
+    <div class="chatScreen">
+        <div class="chatHeader">
+            <h2 align="center" style="padding: 16px; ">Chat</h2>
+        </div>
+        <div class="chat">
+            <div class="messages">
+                <ul class="scrollable">
+                </ul>
+            </div>
+        </div>
+
+        <div class="send">
+            <textarea name="message" id="message" placeholder="Enter for submit.."rows="2"></textarea>
+
+        </div>
+    </div>
+</div>
+
+
+
+<script src="/script.js"></script>
+</body>
+</html>

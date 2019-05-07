@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{text-align: center}
+
+ul{
+    list-style-type: none;
+    margin: 16px;
+}
+
+ul li{
+    padding: 4px 0;
+}
+
+.content{
+    margin: 50px;
+}
+
+.sidebar{
+    display: block;
+    width: 20%;
+    float: left;
+    margin: 0 1% 0 0;
+    height: 500px;
+    padding: 0 0 16px 0;
+}
+
+.divider{
+    border: 2px solid black;
+    border-radius: 0 0 4px 4px ;
+}
+
+.nameContain p{
+    font-weight: bold;
+    margin-bottom: 8px;
+
+}
+
+.nameContain input{
+    width: 96%;
+    padding: 2%;
+}
+.nameContain{
+    margin: 16px 5%;
+}
+
+
+.chatScreen{
+    display: block;
+    float: left;
+    width: 75%;
+    margin: 0 0 0 1%;
+}
+
+.chatHeader{
+    color: #fff;
+    background: #3D3D3D;
+    border-radius: 4px 4px 0 0;
+}
+
+
+.chat{
+    border-radius: 0 0 4px 4px;
+    border: 2px solid black;
+    height:50vh;
+    padding: 0px 0 16px 0;
+    overflow-y: auto;
+}
+
+/*.messages {
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 82%;
+    overflow-y: auto;
+}*/
+
+.send{
+    margin: 1.78% 0 0 0;
+}
+.send textarea{
+    width: 98%;
+    padding: 1%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(12,12,12,0.8);
+    border-radius: 4px;
+}
+
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
